@@ -1,0 +1,24 @@
+Thu 02/28/2019 11:51:13.22 Project Version Date: 10-05-2015. 
+Thu 02/28/2019 11:51:13.22 Files present and extracted successfully. 
+Thu 02/28/2019 11:51:13.48 OEMs folder found successfully. 
+Thu 02/28/2019 11:51:13.79 Defined Windows 10 Pro N x64 version ProfessionalN editon found. 
+Thu 02/28/2019 11:51:21.01 Defined HP manufacture found for branding and possible activation. 
+Thu 02/28/2019 11:51:22.81 Error, no OEM-DM key present. 
+Thu 02/28/2019 11:51:37.53 License Status: Error, not licensed. 
+Thu 02/28/2019 11:51:37.53 Force theme text file not present. 
+Thu 02/28/2019 11:51:37.95 x64 reg file successfully ran and applied.
+Thu 02/28/2019 11:51:38.01 Syspdt found and applied successfully.
+Thu 02/28/2019 11:51:38.01 Backgrounds folder created successfully. 
+Thu 02/28/2019 11:51:38.03 Deletion of OOBE.xml file successful.  
+Thu 02/28/2019 11:51:38.03 User.bmp backed-up and replaced successfully.  
+Thu 02/28/2019 11:51:38.22 User.png backed-up and replaced successfully.  
+Thu 02/28/2019 11:51:38.23 User-40.png backed-up and replaced successfully.  
+Thu 02/28/2019 11:51:38.25 User-32.png backed-up and replaced successfully.  
+Thu 02/28/2019 11:51:38.25 User-48.png backed-up and replaced successfully.  
+Thu 02/28/2019 11:51:38.26 User-192.png backed-up and replaced successfully. 
+Thu 02/28/2019 11:51:38.26 Theme backed-up and replaced successfully. 
+Thu 02/28/2019 11:51:38.47 Img100.jpg backed-up and replaced successfully. 
+Thu 02/28/2019 11:51:46.12 Advanced logon screen for win 10 enabled successfully.
+Thu 02/28/2019 11:51:46.19 Files moved to System32\oobe\Info folder successfully. 
+Thu 02/28/2019 11:51:54.12 RunOnce reg entry added successfully.
+Thu 02/28/2019 11:51:54.12 Script has completed successfully.

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="//https://codepen.io/Mobilpadde/pen/qwvh">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
+    <title>The Schedule School</title>
+<style>
+table{
+margin:5px 200px auto;
+padding: 20px;
+box-shadow: 20px 15px 15px black;
+border-radius: 50px;
+box-direction: center;
+}    
+th{
+color: rgb(255, 0, 0);
+background-image: url(css4.jpg);
+border: 2px solid rgb(53, 53, 53);
+padding: 17px;
+text-shadow: 15px 8px 17px ;
+border-radius: 20px;
+font-family: 'Raleway', sans-serif;
+box-shadow: 2px 3px 4px black;
+font-size: 18px;
+}
+
+table#t01 tr:nth-child(even){
+    color: rgb(16, 5, 110);
+background-color: rgb(15, 5, 37);
+margin: 25px 500px;
+text-align: center;
+text-shadow: 6px 6px 6px;
+font-size: 20px;
+border-radius: 2px 9px;
+}
+
+td{
+width: 15px;
+margin: 40px 500px;
+right: 30px;
+border: 2px solid rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBGCQx-h143O8b82j_9EryEzWJLyc6LbGD9UC5ZljBPnO75d6);
+background-image:url(cssimage.jpg);
+border-radius: 15px;
+font-size: 17px;
+box-shadow: 8px 8px 16px;
+text-shadow: 15px 15px 15px;
+font-family:'Heebo', sans-serif;
+ 'Raleway', sans-serif;
+text-align: center;
+
+}
+table td{
+    padding:15px;
+    box-shadow: 3px 4px 5px;
+}
+
+
+table td:hover{   
+background-color: rgb(255, 255, 255);
+box-shadow: 10px 8px 8px;
+width:0px;
+
+}
+
+table tr{
+    background-color: rgb(104, 104, 104);
+text-shadow: 15px 10px 20px;
+}
+h1{
+color: black;
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+background-image: url(head.png);
+padding: 25px;
+margin: 0px;
+text-align: center;
+
+
+
+
+
+}
+#particles.js{
+    height: 100%;
+    background-color: grey;
+}
+.csstd{
+
+background-color: blue;
+ }
+table th:hover{
+background-color: rgb(255, 255, 255);
+box-shadow: 8px 8px 8px black;
+
+ }
+ .spiralContainer {
+  border-radius: 50%;
+  width:120px;
+  height:120px;
+  overflow:hidden;
+  margin:20px;
+  
+  -webkit-animation: spin 3s linear 0s infinite reverse;
+  -moz-animation: spin 3s linear 0s infinite reverse;  
+  -ms-animation: spin 3s linear 0s infinite reverse;
+  -o-animation: spin 3s linear 0s infinite reverse;
+  animation: spin 3s linear 0s infinite reverse;
+  
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;  
+  animation-play-state: paused;
+}
+.spiral {
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+  background-image: url(ameer2.jpg); background-size: 120px;
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  
+  
+  -webkit-animation: spin 6s linear 0s infinite normal;
+  -moz-animation: spin 6s linear 0s infinite normal;
+  -ms-animation: spin 6s linear 0s infinite normal;
+  -o-animation: spin 6s linear 0s infinite normal;
+  animation: spin 6s linear 0s infinite normal;
+}
+.spiralContainer:hover {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spin {
+  0% {-ms-transform: rotate(360deg); }
+  100% { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(360deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(360deg); }
+  100% { -o-transform: rotate(0deg); }
+}
+
+
+caption{
+font-size: 35px;
+font-family:'Raleway', sans-serif;
+text-shadow: 2px 3px 3px;
+color: black;
+}
+</style>
+
+</head>
+
+
+
+<!--https://hdqwalls.com/download/minimalism-birds-mountains-trees-forest-9k-1920x1080.jpg-->
+
+
+
+<body style="padding: 0px; margin:0px; height:100vh; background-image: url(background4.jpg); background-size:110%;>
+        <div id="particles.js"></div>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="particles.min"></script>
+        <script type="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script type="text/javascript" src="particles.json"></script>
+        <script>
+                particlesJS.load('particles-js', 'particles.json',
+                function(){
+                    console.log('particles.json loaded...')
+                })
+            </script>
+            
+        
+            <h1><i>--The Schedule School--</i></h1>
+            
+   <div class='spiralContainer'><div class='spiral'></div></div>  
+<table>
+  
+ <caption><i>--The Schedule School--</i></caption>
+    <i>
+<tr>
+<th>Share/Day</th>
+<th>Sunday</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+</tr>
+<tr>
+<td background="css image.jpg" class="csstd">First</td>
+<td>Geographically</td>
+<td>Religion</td>
+<td>Geographically</td>
+<td>Religion</td>
+<td>English</td>
+
+</tr>
+
+
+<tr>
+    <div class="css44">
+<td>Second</td>
+</div>
+<td>Maths</td>
+<td>English</td>
+<td>Technology</td>
+<td>Sport</td>
+<td>Geographically</td>
+
+</tr>
+<tr>
+<td>Third</td>
+<td>Arabic</td>
+<td>Maths</td>
+<td>Arabic</td>
+<td>Geographically</td>
+<td>Arabic</td>
+
+</tr>
+<tr>
+<td>Fourth</td>
+<td>English</td>
+<td>Arabic</td>
+<td>English</td>
+<td>Maths</td>
+<td>Technology</td>
+ 
+</tr>
+<tr>
+ <td>Fifth</td> 
+ <td>Physics</td>
+ <td>Biology</td>
+ <td>Physics</td>
+ <td>Arabic</td>
+ <td>Maths</td>
+ 
+</tr>
+
+<tr>
+<td>Sixth</td> 
+<td>Religion</td>
+<td>Geographically</td>
+<td>Chemistry</td>
+<td>Biology</td>
+<td>Physics</td>
+      
+</tr>
+
+<tr>
+<td>Seventh</td>
+<td>Art</td>
+<td>Chemistry</td>
+<td>Maths</td>
+<td>English</td>
+<td>Nothing</td>
+
+</tr>
+</i>
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
